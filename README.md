@@ -1,13 +1,7 @@
-## My Project
+## CloudFormation Resource Provider Package For Amazon Event Schemas Service
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+The CloudFormation Resource Provider Package For Amazon Event Schemas Service
 
 ## License
 
-This project is licensed under the Apache-2.0 License.
-
+This library is licensed under the Apache 2.0 License.
