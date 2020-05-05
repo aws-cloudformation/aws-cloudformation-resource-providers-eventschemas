@@ -3,53 +3,53 @@
     "description": "Resource Type definition for AWS::EventSchemas::RegistryPolicy",
     "additionalProperties": false,
     "properties": {
-      "Id": {
-        "type": "string"
-      },
-      "Policy": {
-        "type": "object"
-      },
-      "RegistryName": {
-        "type": "string"
-      },
-      "RevisionId": {
-        "type": "string"
-      }
+        "Id": {
+            "type": "string"
+        },
+        "Policy": {
+            "type": "object"
+        },
+        "RegistryName": {
+            "type": "string"
+        },
+        "RevisionId": {
+            "type": "string"
+        }
     },
     "required": [
-      "RegistryName",
-      "Policy"
+        "RegistryName",
+        "Policy"
     ],
     "readOnlyProperties": [
-      "/properties/Id"
+        "/properties/Id"
     ],
     "primaryIdentifier": [
-      "/properties/Id"
+        "/properties/Id"
     ],
     "handlers": {
-      "create": {
-        "permissions": [
-          "schemas:PutResourcePolicy",
-          "schemas:GetResourcePolicy",
-          "schemas:DescribeRegistry"
-        ]
-      },
-      "delete": {
-        "permissions": [
-          "schemas:DeleteResourcePolicy",
-          "schemas:GetResourcePolicy"
-        ]
-      },
-      "update": {
-        "permissions": [
-          "schemas:PutResourcePolicy",
-          "schemas:GetResourcePolicy"
-        ]
-      },
-      "read": {
-        "permissions": [
-          "schemas:GetResourcePolicy"
-        ]
-      }
+        "create": {
+            "permissions": [
+                "schemas:PutResourcePolicy",
+                "schemas:GetResourcePolicy",
+                "schemas:DescribeRegistry"
+            ]
+        },
+        "delete": {
+            "permissions": [
+                "schemas:DeleteResourcePolicy",
+                "schemas:GetResourcePolicy"
+            ]
+        },
+        "update": {
+            "permissions": [
+                "schemas:PutResourcePolicy",
+                "schemas:GetResourcePolicy"
+            ]
+        },
+        "read": {
+            "permissions": [
+                "schemas:GetResourcePolicy"
+            ]
+        }
     }
-  }
+}
