@@ -1,0 +1,15 @@
+{
+    "typeName": "AWS::EventSchemas::RegistryPolicy",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.eventschemas.registrypolicy.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.eventschemas.registrypolicy.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "eventschemas",
+            "registrypolicy"
+        ]
+    }
+}
